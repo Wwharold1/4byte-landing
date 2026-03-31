@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function WhatsAppWidget() {
   const [open, setOpen] = useState(false);
 
-  const phone = "51944148254";
+  const phone = "51957212929";
   const advisor = "Aldair Gonzales";
   const role = "Ventas";
   const message =
