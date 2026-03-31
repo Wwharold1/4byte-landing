@@ -344,3 +344,18 @@ body {
     animation: none;
   }
 }
+
+@keyframes clients-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.clients-track {
+  display: flex;
+  width: max-content;
+  animation: clients-scroll 24s linear infinite;
+}
