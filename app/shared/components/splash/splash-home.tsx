@@ -34,7 +34,8 @@ export default function SplashHome() {
       }}
       className="fixed inset-0 z-[9999] flex items-center justify-center bg-black text-white"
     >
-      <div className="flex w-full flex-col items-center justify-center px-6">
+      <div className="flex w-full flex-col items-center justify-center gap-5 px-6">
+        {/* LOGO */}
         <motion.div
           animate={{
             scale: step >= 0 ? 0.96 : 1,
@@ -44,7 +45,7 @@ export default function SplashHome() {
             duration: 0.5,
             ease: [0.22, 1, 0.36, 1],
           }}
-          className="relative h-[20vh] w-[30vw]"
+          className="relative h-[30vh] w-[75vw] sm:h-[24vh] sm:w-[50vw] md:h-[20vh] md:w-[30vw]"
         >
           <Image
             src="/black_logo.png"
@@ -55,7 +56,8 @@ export default function SplashHome() {
           />
         </motion.div>
 
-        <div className="mt-3 min-h-[48px] w-full">
+        {/* TEXTO */}
+        <div className="mt-2 min-h-[60px] w-full">
           <AnimatePresence mode="wait">
             {step >= 0 && step < 2 && (
               <motion.p
@@ -67,7 +69,7 @@ export default function SplashHome() {
                   duration: 0.55,
                   ease: [0.22, 1, 0.36, 1],
                 }}
-                className="mx-auto max-w-[1100px] text-center text-xl font-medium tracking-[0.08em] text-white sm:text-xl md:text-2xl"
+                className="mx-auto max-w-[1100px] text-center text-lg font-semibold leading-snug tracking-[0.01em] text-white sm:text-xl md:text-2xl"
               >
                 {messages[step]}
               </motion.p>
@@ -84,7 +86,7 @@ export default function SplashHome() {
                   duration: 0.55,
                   ease: [0.22, 1, 0.36, 1],
                 }}
-                className="mx-auto max-w-[1100px] text-center text-xl font-medium tracking-[0.08em] text-white sm:text-xl md:text-2xl"
+                className="mx-auto max-w-[1100px] text-center text-lg font-semibold leading-snug tracking-[0.01em] text-white sm:text-xl md:text-2xl"
               >
                 Desarrollo de software a la medida
               </motion.p>
