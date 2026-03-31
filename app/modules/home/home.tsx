@@ -12,12 +12,6 @@ type HomeProps = {
 
 export default function Home({ heroVisible }: HomeProps) {
 
-  const clients = [
-    { name: "ELOSI", logo: "/clients/elosi.png", width: 220, height: 80 },
-    { name: "Pacífico Seguros", logo: "/clients/pacifico.png", width: 360, height: 110 },
-    { name: "Scotiabank", logo: "/clients/scotiabank.png", width: 280, height: 90 },
-    { name: "Softway", logo: "/clients/softway.png", width: 180, height: 90 },
-  ];
   return (
     <>
       <section
@@ -141,7 +135,7 @@ export default function Home({ heroVisible }: HomeProps) {
           >
             {[
               {
-                title: "Staff augmentation",
+                title: "Staff Augmentation",
                 description:
                   "Integramos talento especializado a tu equipo para potenciar y acelerar tus proyectos.",
                 icon: "◇",
