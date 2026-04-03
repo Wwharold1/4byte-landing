@@ -6,24 +6,11 @@ import { Logo } from "../logo/logo";
 import { LogoEnum } from "../../constants/logo.constants";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
-<<<<<<< HEAD
-
-const navItems = [
-  { label: "Inicio", href: "#nosotros" },
-  { label: "Servicios", href: "#servicios" },
-  { label: "Nosotros", href: "#identidad" },
-  { label: "Clientes", href: "#clients" },
-  { label: "Contacto", href: "#contacto" },
-];
-
-export default function Navbar() {
-=======
 import LanguageSwitcher from "../switch-language/language-switcher";
 import { useTranslations } from "next-intl";
 
 export default function Navbar() {
   const t = useTranslations("Home.navbar");
->>>>>>> f6103e0 (feat agregar init)
   const [activeLink, setActiveLink] = useState("#nosotros");
   const [isOpen, setIsOpen] = useState(false);
 
@@ -32,12 +19,6 @@ export default function Navbar() {
     setIsOpen(false);
   };
 
-<<<<<<< HEAD
-  return (
-    <header className="absolute left-0 right-0 top-0 z-50">
-      <nav
-        className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6"
-=======
   const navItems = [
     { label: t("home"), href: "#nosotros" },
     { label: t("services"), href: "#servicios" },
@@ -50,7 +31,6 @@ export default function Navbar() {
     <header className="absolute left-0 right-0 top-0 z-50">
       <nav
         className="relative mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6"
->>>>>>> f6103e0 (feat agregar init)
         aria-label="Navegación principal"
       >
         <Link
@@ -138,14 +118,10 @@ export default function Navbar() {
               </motion.div>
             </>
           )}
-<<<<<<< HEAD
-        </AnimatePresence>
-=======
         </AnimatePresence>{/* LANGUAGE SWITCHER */}
        <div className="absolute left-1/2 -translate-x-[18%] scale-90 md:scale-100 md:static md:translate-x-0">
         <LanguageSwitcher />
       </div>
->>>>>>> f6103e0 (feat agregar init)
       </nav>
     </header>
   );

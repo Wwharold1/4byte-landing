@@ -3,18 +3,6 @@
 import { AnimatePresence, motion } from "motion/react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-<<<<<<< HEAD
-
-const messages = [
-  "Innovación tecnológica para impulsar tu empresa",
-  "Optimiza e impulsa el crecimiento de tu negocio con tecnología",
-  "Desarrollo de software a la medida",
-];
-
-export default function SplashHome() {
-  const [step, setStep] = useState(-1);
-
-=======
 import { useTranslations } from "next-intl";
 
 export default function SplashHome() {
@@ -25,7 +13,6 @@ export default function SplashHome() {
     t("title2"),
     t("title3")
   ];
->>>>>>> f6103e0 (feat agregar init)
   useEffect(() => {
     const timers = [
       setTimeout(() => setStep(0), 1000),
@@ -62,11 +49,7 @@ export default function SplashHome() {
         >
           <Image
             src="/black_logo.png"
-<<<<<<< HEAD
-            alt="4BYTE Solutions"
-=======
             alt="4BYTE"
->>>>>>> f6103e0 (feat agregar init)
             fill
             className="object-contain"
             priority
@@ -105,11 +88,7 @@ export default function SplashHome() {
                 }}
                 className="mx-auto max-w-[1100px] text-center text-lg font-semibold leading-snug tracking-[0.01em] text-white sm:text-xl md:text-2xl"
               >
-<<<<<<< HEAD
-                Desarrollo de software a la medida
-=======
                 {messages[step]}
->>>>>>> f6103e0 (feat agregar init)
               </motion.p>
             )}
           </AnimatePresence>
