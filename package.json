@@ -1,6 +1,6 @@
 {
   "name": "4byte-landing",
-  "version": "0.1.0",
+  "version": "1.0.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -12,6 +12,10 @@
     "lucide-react": "^1.7.0",
     "motion": "^12.38.0",
     "next": "16.1.6",
+<<<<<<< HEAD
+=======
+    "next-intl": "^4.9.0",
+>>>>>>> f6103e0 (feat agregar init)
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },

@@ -358,4 +358,11 @@ body {
   display: flex;
   width: max-content;
   animation: clients-scroll 24s linear infinite;
+<<<<<<< HEAD
+=======
+}
+
+.clients-track:hover {
+  animation-play-state: paused;
+>>>>>>> f6103e0 (feat agregar init)
 }

@@ -1,0 +1,72 @@
+{
+  "Home": {
+    "navbar": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "us": "Nosotros",
+      "clients": "Clientes",
+      "contact": "Contactanos"
+    },
+    "title": "Impulsa tu empresa con nuestros servicios",
+    "sub-title": "Staff augmentation, headhunting y desarrollo de software a medida.",
+    "sub-title2": "Transformamos tu empresa con oportunidades exponenciales."
+  },
+  "Services": {
+    "title":"Qué hacemos por ti",
+    "sub-title": "Soluciones de software pensadas para escalar y adaptarse a tu negocio.",
+    "staff": {
+      "title": "Staff Augmentation",
+      "description": "Integramos talento especializado a tu equipo para potenciar y acelerar tus proyectos."
+    },
+    "headhunting": {
+      "title": "Headhunting",
+      "description": "Encontramos el perfil ideal para tu empresa con un proceso ágil y enfocado en calidad."
+    },
+    "software": {
+      "title": "Software a medida",
+      "description": "Diseñamos y desarrollamos soluciones digitales a medida, pensadas para escalar y adaptarse a tu negocio."
+    }
+  },
+  "Identity": {
+    "title": "Nuestra identidad",
+    "sub-title": "Se construye sobre un propósito claro, una misión definida y valores sólidos que guían cada decisión y forma de trabajar.",
+    "purpose": {
+      "title": "Propósito",
+      "description": "Impulsar el crecimiento de tu empresa a través del talento y la tecnología, acompañando cada etapa con soluciones estratégicas que generan valor sostenible."
+    },
+    "mission": {
+      "title": "Misión",
+      "description": "Acompañar a nuestros clientes con soluciones digitales y talento especializado, generando valor estratégico y sostenible en cada proyecto y servicio."
+    },
+    "values": {
+      "title": "Valores",
+      "description": "Innovación, compromiso, integridad, adaptabilidad y desarrollo humano como base para construir soluciones sólidas y relaciones de confianza."
+    }
+  },
+  "Clients": {
+    "title": "Ellos confían en nosotros",
+    "sub-title": "Empresas que han confiado en nuestro talento y nuestras soluciones."
+  },
+  "Contact": {
+    "title": "¿Listo para llevar tu idea al siguiente nivel?",
+    "sub-title": "Cuéntanos tu proyecto y te respondemos con una propuesta a medida.",
+    "button": "hola@4bytesolutions.com"
+  },
+  "Splashs": {
+    "home": {
+      "title1": "Innovación tecnológica para impulsar tu empresa",
+      "title2": "Optimiza e impulsa el crecimiento de tu negocio con tecnología",
+      "title3": "Desarrollo de software a la medida"
+    }
+  },
+  "Whatsaap": {
+    "title": "Iniciar una conversación",
+    "description": "¡Hola! Haz clic en uno de nuestros miembros a continuación para chatear en WhatsApp.",
+    "time": "El equipo suele responder en unos minutos.",
+    "comercial": "Gerente Comercial",
+    "comercial-type": "Ventas"
+  },
+  "Footer": {
+    "title": "Todos los derechos reservados."
+  }
+}

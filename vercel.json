@@ -1,0 +1,26 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "4byte-peru.com"
+        }
+      ],
+      "destination": "https://4byte-solutions.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.4byte-peru.com"
+        }
+      ],
+      "destination": "https://4byte-solutions.com/$1",
+      "permanent": true
+    }
+  ]
+}

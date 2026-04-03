@@ -1,0 +1,72 @@
+{
+  "Home": {
+    "navbar": {
+      "home": "Home",
+      "services": "Services",
+      "us": "Us",
+      "clients": "Clients",
+      "contact": "Contacts us"
+    },
+    "title": "Boost your business with our services",
+    "sub-title": "Staff augmentation, headhunting, and custom software development.",
+    "sub-title2": "We transform your company with exponential opportunities."
+  },
+  "Services": {
+    "title": "What we do for you",
+    "sub-title": "Software solutions designed to scale and adapt to your business.",
+    "staff": {
+      "title": "Staff Augmentation",
+      "description": "We integrate specialized talent into your team to enhance and accelerate your projects."
+    },
+    "headhunting": {
+      "title": "Headhunting",
+      "description": "We find the ideal candidate for your company with an agile and quality-focused process."
+    },
+    "software": {
+      "title": "Custom Software",
+      "description": "We design and develop custom digital solutions, designed to scale and adapt to your business."
+    }
+  },
+  "Identity": {
+    "title": "Our identity",
+    "sub-title": "It is built on a clear purpose, a defined mission, and solid values that guide every decision and way of working.",
+    "purpose": {
+      "title": "Purpose",
+      "description": "Boost your company's growth through talent and technology, supporting each stage with strategic solutions that generate sustainable value."
+    },
+    "mission": {
+      "title": "Mission",
+      "description": "To support our clients with digital solutions and specialized talent, generating strategic and sustainable value in every project and service."
+    },
+    "values": {
+      "title": "Values",
+      "description": "Innovation, commitment, integrity, adaptability and human development as the basis for building solid solutions and relationships of trust."
+    }
+  },
+  "Clients": {
+    "title": "They trust us",
+    "sub-title": "Companies that have trusted in our talent and our solutions."
+  },
+  "Contact": {
+    "title": "Ready to take your idea to the next level?",
+    "sub-title": "Tell us about your project and we'll respond with a customized proposal.",
+    "button": "hi@4bytesolutions.com"
+  },
+  "Splashs": {
+    "home": {
+      "title1": "Technological Innovation to Boost Your Business",
+      "title2": "Optimize and Drive Your Business Growth with Technology",
+      "title3": "Custom Software Development"
+    }
+  },
+  "Whatsaap": {
+    "title": "Start a conversation",
+    "description": "Hi! Click on one of our members below to chat on WhatsApp.",
+    "time": "The team usually responds within a few minutes.",
+    "comercial": "Comercial Manager",
+    "comercial-type": "Sales"
+  },
+  "Footer": {
+    "title": "All rights reserved."
+  }
+}
